@@ -1,18 +1,18 @@
-import MainSection from './MainSection/MainSection';
-import IntroSection from './IntroSection/IntroSection';
-import HomeLayout from '../../layouts/HomeLayout/HomeLayout';
-import SectionBG from '../../components/UIElements/SectionBG/SectionBG';
+import MainPage from './MainPage/MainPage';
+import IntroPage from './IntroPage/IntroPage';
+import Home from '../../templating/Home/Home'
+import Backgrounds from '../../components/Elements/Backgrounds/Backgrounds'
 
-const Home = () => {
+const HomePage = () => {
   return (
-    <HomeLayout>
-      <SectionBG>
-        <MainSection />
-      </SectionBG>
+    <Home>
+      <Backgrounds>
+        <MainPage />
+      </Backgrounds>
 
-      <IntroSection />
-    </HomeLayout>
+      <IntroPage />
+    </Home>
   );
 };
 
-export default Home;
+export default HomePage;
