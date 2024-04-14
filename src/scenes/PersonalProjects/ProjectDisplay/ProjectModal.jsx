@@ -17,7 +17,7 @@ const ProjectModal = () => {
 
   useEffect(() => {
     toggleModal();
-  }, []);
+  }, [toggleModal]);
 
   return (
     <BaseModal show={isVisible} onClose={toggleModal}>

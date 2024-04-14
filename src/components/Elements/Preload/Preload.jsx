@@ -1,4 +1,4 @@
-import s from './preload.module.scss';
+import s from './Preload.module.scss';
 
 const Preload = () => {
   return (

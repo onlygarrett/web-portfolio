@@ -2,7 +2,7 @@ import s from './Resume.module.scss';
 import { ReactComponent as FilesIcon } from '../../assets/resume-files.svg';
 import { ReactComponent as DownloadIcon } from '../../assets/download.svg';
 import { useEffect, useRef, useState } from 'react';
-import BaseLayout from '../../layouts/BaseLayout/BaseLayout';
+import Base from '../../templating/Base/Base'
 import Progress from '../../components/Elements/Progress/Progress';
 import Button from '../../components/Elements/Button/Button';
 //react-pdf
@@ -35,7 +35,7 @@ const Resume = () => {
   };
 
   return (
-    <BaseLayout>
+    <Base>
       <div className={s.content}>
         <div className={s.header}>
           <h1 className={s.title}>
@@ -74,7 +74,7 @@ const Resume = () => {
           </Document>
         </div>
       </div>
-    </BaseLayout>
+    </Base>
   );
 };
 

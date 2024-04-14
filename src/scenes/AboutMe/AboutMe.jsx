@@ -1,13 +1,13 @@
 import s from './AboutMe.module.scss';
-import BaseLayout from '../../layouts/BaseLayout/BaseLayout';
+import Base from '../../templating/Base/Base'
 import aboutPromo from '../../assets/about-promo.svg';
 import AboutCard from './AboutCard/AboutCard';
 import TechCard from './TechCard/TechCard'
-import GithubActivity from './GithubActivity/GithubActivity';
+import GithubCard from './GithubCard/GithubCard'
 
 const AboutMe = () => {
   return (
-    <BaseLayout>
+    <Base>
       <div className={s.content}>
         <div className={s.about}>
           <div className={s.aboutDescription}>
@@ -30,9 +30,9 @@ const AboutMe = () => {
         <h2 className={s.githubActivity}>
           Days I <b className={s.purple}>Code</b>
         </h2>
-        <GithubActivity />
+        <GithubCard />
       </div>
-    </BaseLayout>
+    </Base>
   );
 };
 
