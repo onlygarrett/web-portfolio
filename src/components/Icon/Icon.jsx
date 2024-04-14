@@ -1,4 +1,3 @@
-import s from './Icon.module.scss';
 import { routes } from '../../routes/BaseRoutes';
 import { Link } from 'react-router-dom';
 
