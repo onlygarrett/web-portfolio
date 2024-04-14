@@ -8,6 +8,7 @@ import Button from '../../components/Elements/Button/Button';
 //react-pdf
 import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
+import 'react-pdf/dist/Page/TextLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const resumeLink =
@@ -66,8 +67,8 @@ const Resume = () => {
             }}
           >
             <Page
-              onLoadSuccess={removeTextLayerOffset}
               loading={<Progress />}
+              onLoadSuccess={removeTextLayerOffset}
               width={pdfPageWidth}
               pageNumber={1}
             />
