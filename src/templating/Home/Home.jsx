@@ -1,16 +1,14 @@
 import s from './Home.module.scss';
 import Header from '../../components/Header/Header';
-import Particles from '../../components/UIElements/Particles/Particles';
 import Footer from '../../components/Footer/Footer';
-import MainNavigation from '../../components/Navigation/MainNavigation/MainNavigation';
+import Main from '../../components/Nav/Main/Main';
 
 const Home = ({ children }) => {
   return (
     <div className={s.template}>
-      <Particles />
 
       <Header>
-        <MainNavigation />
+        <Main />
       </Header>
 
       {children}

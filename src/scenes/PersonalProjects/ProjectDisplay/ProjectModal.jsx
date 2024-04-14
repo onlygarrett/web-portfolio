@@ -1,8 +1,8 @@
 import s from './ProjectModal.module.scss';
 import ProjectInfo from '../ProjectInfo';
 import { BiLinkExternal } from 'react-icons/bi';
-import Modal from '../../../components/Modal/Modal';
-import Button from '../../../components/UIElements/Button/Button';
+import BaseModal from '../../../components/Modals/BaseModal'
+import ButtonComp from '../../../components/ButtonComp/ButtonComp'
 import { useParams } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useModal } from '../../../hooks/modalHook';
@@ -20,7 +20,7 @@ const ProjectModal = () => {
   }, []);
 
   return (
-    <Modal show={isVisible} onClose={toggleModal}>
+    <BaseModal show={isVisible} onClose={toggleModal}>
       <div className={s.cardWrapper}>
         <LazyLoadImage
           alt="project-img"
@@ -42,28 +42,28 @@ const ProjectModal = () => {
         </div>
 
         <div className={s.cardFooter}>
-          <Button
+          <ButtonComp
             style={{ width: '12rem' }}
             className="primary"
             href={links.site}
             target="_blank"
           >
             <BiLinkExternal /> &nbsp; View project
-          </Button>
+          </ButtonComp>
 
           {!!links.repo && (
-            <Button
+            <ButtonComp
               style={{ width: '12rem' }}
               className="primary"
               href={links.repo}
               target="_blank"
             >
               <BiLinkExternal /> &nbsp; Know more
-            </Button>
+            </ButtonComp>
           )}
         </div>
       </div>
-    </Modal>
+    </BaseModal>
   );
 };
 

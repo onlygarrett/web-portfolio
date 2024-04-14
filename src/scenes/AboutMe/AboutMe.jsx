@@ -1,8 +1,8 @@
 import s from './AboutMe.module.scss';
 import BaseLayout from '../../layouts/BaseLayout/BaseLayout';
-import aboutPromoImg from '../../assets/about-promo.svg';
-import AboutTextCard from './AboutTextCard/AboutTextCard';
-import TechSkills from './TechSkills/TechSkills';
+import aboutPromo from '../../assets/about-promo.svg';
+import AboutCard from './AboutCard/AboutCard';
+import TechCard from './TechCard/TechCard'
 import GithubActivity from './GithubActivity/GithubActivity';
 
 const AboutMe = () => {
@@ -14,18 +14,18 @@ const AboutMe = () => {
             <h1 className={s.title}>
               Know Who <b className={s.purple}>I'M</b>
             </h1>
-            <AboutTextCard />
+            <AboutCard />
           </div>
 
           <div className={s.aboutImg}>
-            <img src={aboutPromoImg} alt="about" />
+            <img src={aboutPromo} alt="about" />
           </div>
         </div>
 
         <h2 className={s.skills}>
           Professional <b className={s.purple}>Skills</b>
         </h2>
-        <TechSkills />
+        <TechCard />
 
         <h2 className={s.githubActivity}>
           Days I <b className={s.purple}>Code</b>

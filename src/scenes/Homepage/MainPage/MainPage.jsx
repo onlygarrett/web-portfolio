@@ -1,6 +1,6 @@
 import s from './MainPage.module.scss';
 import homeMainIcon from '../../../assets/home-main.svg';
-import Typewriter from '../../../components/UIElements/Typewriter/Typewriter';
+import Typewriter from '../../../components/Elements/Typewriter/Typewriter';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const MainPage = () => {
@@ -13,7 +13,7 @@ const MainPage = () => {
 
         <h1 className={s.mainTitle}>
           I'M
-          <strong className={s.mainName}> SNAICHUK VOLODYMYR</strong>
+          <strong className={s.mainName}>Garrett Rumschik</strong>
         </h1>
 
         <div style={{ paddingTop: 50 }}>

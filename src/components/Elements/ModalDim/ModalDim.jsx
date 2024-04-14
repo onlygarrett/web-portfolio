@@ -1,7 +1,7 @@
 import s from './ModalDim.module.scss';
 
 const ModalDim = ({ onClick }) => {
-  return <div className={s.backdrop} onClick={onClick} />;
+  return <div className={s.modalDim} onClick={onClick} />;
 };
 
 export default ModalDim;

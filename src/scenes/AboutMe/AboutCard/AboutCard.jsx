@@ -6,7 +6,7 @@ const AboutCard = () => {
     <div className={s.card}>
       <p style={{ textAlign: 'justify' }}>
         Hi Everyone, I am{' '}
-        <span className={s.purple}>Snaichuk Volodymyr </span>
+        <span className={s.purple}>Garrett Rumschik </span>
         from <span className={s.purple}> Ternopil, Ukraine.</span>
         <br />
         Software engineer with expertise in cross-platform development{' '}
