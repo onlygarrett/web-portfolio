@@ -4,6 +4,7 @@ import { AiFillGithub } from 'react-icons/ai';
 import {
   FaLinkedinIn,
 } from 'react-icons/fa';
+import { MdEmail } from "react-icons/md";
 import Tilt from 'react-parallax-tilt';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -19,28 +20,28 @@ const IntroPage = () => {
 
           <div className={s.description}>
             <p>
-              I'm a React Native Developer with two years of
-              experience <br />
-              creating mobile apps for the iOS, Android, and Web
-              platforms.
+              I'm a Software developer with over 6 years of experience
+              <br />
+              developing for various sized stacks ranging from Enterprise level to
+              ground-floor startup.
             </p>
 
             <p>
               My skills include proficiency in{' '}
               <i>
                 <b className={s.purple}>
-                  TypeScript, React, React Native,
+                  Python, Cloud Services, Data Structures,
                 </b>
               </i>
               <br />
-              and other relevant technologies. I have experience in
-              integrating various <br />
-              third-party libraries, API integration, push
-              notifications and analytics.
+              and other relevant development tools abd services. 
+              I have experience in maintaining and deploying API's, <br />
+              supporting front-end/mobile developers, and setting up 
+              various automations infrastructures.  
             </p>
 
             <p>
-              My field of Interest's are building new
+              My field of Interest's are developing 
               <i>
                 <b className={s.purple}> Technologies and Products</b>
               </i>
@@ -80,6 +81,17 @@ const IntroPage = () => {
               aria-label="linkedin"
             >
               <FaLinkedinIn />
+            </a>
+          </li>
+          <li className={s.socialLink}>
+            <a
+              href="rumschik.2@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+              className={s.socialIcon}
+              aria-label="email"
+            >
+              <MdEmail />
             </a>
           </li>
         </ul>

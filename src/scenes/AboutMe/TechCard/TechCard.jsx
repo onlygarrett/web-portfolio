@@ -1,51 +1,47 @@
 import s from './TechCard.module.scss';
 import {
   DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiGit,
-  DiSass,
+  DiPython,
+  DiLinux,
+  DiDocker,
+  DiDatabase,
+  DiRedis
 } from 'react-icons/di';
 import {
-  SiTypescript,
-  SiRedux,
-  SiSocketdotio,
+  SiAwslambda,
   SiAmazonaws,
+  SiMysql,
 } from 'react-icons/si';
 
 const TechCard = () => {
   return (
     <ul className={s.container}>
       <li className={s.techIcon}>
-        <DiJavascript1 />
-      </li>
-      <li className={s.techIcon}>
-        <SiTypescript />
-      </li>
-      <li className={s.techIcon}>
-        <DiNodejs />
-      </li>
-      <li className={s.techIcon}>
-        <DiReact />
-      </li>
-      <li className={s.techIcon}>
-        <DiMongodb />
-      </li>
-      <li className={s.techIcon}>
-        <DiSass />
+        <DiPython />
       </li>
       <li className={s.techIcon}>
         <SiAmazonaws />
       </li>
       <li className={s.techIcon}>
-        <SiRedux />
+        <DiLinux />
       </li>
       <li className={s.techIcon}>
-        <SiSocketdotio />
+        <SiMysql />
       </li>
       <li className={s.techIcon}>
-        <DiGit />
+        <DiDatabase />
+      </li>
+      <li className={s.techIcon}>
+        <DiDocker />
+      </li>
+      <li className={s.techIcon}>
+        <DiRedis />
+      </li>
+      <li className={s.techIcon}>
+        <SiAwslambda />
+      </li>
+      <li className={s.techIcon}>
+        <DiJavascript1 />
       </li>
     </ul>
   );

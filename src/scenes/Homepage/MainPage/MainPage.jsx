@@ -13,14 +13,15 @@ const MainPage = () => {
 
         <h1 className={s.mainTitle}>
           I'M
-          <strong className={s.mainName}>Garrett Rumschik</strong>
+          <span >  </span> 
+           <strong className={s.mainName}>Garrett Rumschik</strong>
         </h1>
 
         <div style={{ paddingTop: 50 }}>
           <Typewriter
             strings={[
               'Continuously Learning',
-              'React Native Developer',
+              'Full-Stack Development',
             ]}
             wrapperClassName={s.typewriterWrapper}
             cursorClassName={s.typewriterCursor}

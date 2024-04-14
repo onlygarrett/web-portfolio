@@ -14,6 +14,8 @@ const data = [
       },
       technologies: [
         '#django',
+        '#API',
+        '#Python'
       ],
     },
     {
@@ -30,7 +32,7 @@ const data = [
         repo: 'https://github.com/onlygarrett/favorite_streamers',
       },
       technologies: [
-        '#python]',
+        '#python',
         '#nicegui',
       ],
     },
@@ -49,6 +51,7 @@ const data = [
       },
       technologies: [
         '#AWS',
+        '#Lambda'
       ],
     },
   ];

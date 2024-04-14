@@ -5,20 +5,22 @@ const AboutCard = () => {
   return (
     <div className={s.card}>
       <p style={{ textAlign: 'justify' }}>
-        Hi Everyone, I am{' '}
+        Hello visitor, my name is{' '}
         <span className={s.purple}>Garrett Rumschik </span>
-        from <span className={s.purple}> Ternopil, Ukraine.</span>
-        <br />
-        Software engineer with expertise in cross-platform development{' '}
-        <br />
-        using React Native.
+        and <span className={s.purple}> this is a little showcase of me..</span>
         <br />
         <br />
-        I have a Bachelor's degree in Computer Science and
+
+        I am <span className={s.purple}>Software developer </span> with expertise in backend development and automation,{' '}
+        maintaining and deploying API's, and developing with various Cloud Services.
         <br />
-        Master's degree in Project Management from Ternopil Academy.
         <br />
+        I have a Bachelor's degree in Computer Information Science 
+        from The Ohio State University.
         <br />
+        
+        <br />
+        
         Apart from coding, some other activities that I love to do!
       </p>
 
@@ -27,10 +29,10 @@ const AboutCard = () => {
           <ImPointRight /> Playing Games
         </li>
         <li className={s.aboutActivity}>
-          <ImPointRight /> Reading
+          <ImPointRight /> Live music
         </li>
         <li className={s.aboutActivity}>
-          <ImPointRight /> Travelling
+          <ImPointRight /> Traveling with my dog
         </li>
       </ul>
     </div>
