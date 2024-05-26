@@ -1,8 +1,8 @@
-import './styling/main.scss';
 import { Suspense } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import BaseRoutes from './routes/BaseRoutes';
 import Preloader from './components/Elements/Preload/Preload';
+import BaseRoutes from './routes/BaseRoutes';
+import './styling/main.scss';
 
 const App = () => {
   return (
