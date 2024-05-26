@@ -1,12 +1,12 @@
-import s from './ProjectModal.module.scss';
-import ProjectInfo from '../ProjectInfo';
-import { BiLinkExternal } from 'react-icons/bi';
-import BaseModal from '../../../components/Modals/BaseModal'
-import ButtonComp from '../../../components/ButtonComp/ButtonComp'
-import { useParams } from 'react-router-dom';
 import { useEffect } from 'react';
-import { useModal } from '../../../hooks/modalHook';
+import { BiLinkExternal } from 'react-icons/bi';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { useParams } from 'react-router-dom';
+import Button from '../../../components/Elements/Button/Button';
+import BaseModal from '../../../components/Modals/BaseModal';
+import { useModal } from '../../../hooks/modalHook';
+import ProjectInfo from '../ProjectInfo';
+import s from './ProjectModal.module.scss';
 
 const ProjectModal = () => {
   const { id } = useParams();
@@ -42,24 +42,24 @@ const ProjectModal = () => {
         </div>
 
         <div className={s.cardFooter}>
-          <ButtonComp
+          <Button
             style={{ width: '12rem' }}
             className="primary"
             href={links.site}
             target="_blank"
           >
             <BiLinkExternal /> &nbsp; View project
-          </ButtonComp>
+          </Button>
 
           {!!links.repo && (
-            <ButtonComp
+            <Button
               style={{ width: '12rem' }}
               className="primary"
               href={links.repo}
               target="_blank"
             >
               <BiLinkExternal /> &nbsp; Know more
-            </ButtonComp>
+            </Button>
           )}
         </div>
       </div>
