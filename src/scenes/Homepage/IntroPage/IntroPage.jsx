@@ -1,12 +1,12 @@
-import s from './IntroPage.module.scss';
-import avatar from '../../../assets/avatar.svg';
 import { AiFillGithub } from 'react-icons/ai';
 import {
   FaLinkedinIn,
 } from 'react-icons/fa';
 import { MdEmail } from "react-icons/md";
-import Tilt from 'react-parallax-tilt';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import Tilt from 'react-parallax-tilt';
+import avatar from '../../../assets/avatar.svg';
+import s from './IntroPage.module.scss';
 
 const IntroPage = () => {
   return (
@@ -85,7 +85,7 @@ const IntroPage = () => {
           </li>
           <li className={s.socialLink}>
             <a
-              href="rumschik.2@gmail.com"
+              href="mailto:rumschik.2@gmail.com"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
