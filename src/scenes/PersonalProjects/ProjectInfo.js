@@ -10,7 +10,7 @@ const data = [
           'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
       },
       links: {
-        repo: 'https://github.com/onlygarrett/django-steam-app',
+        site: 'https://github.com/onlygarrett/django-steam-app',
       },
       technologies: [
         '#django',
@@ -29,7 +29,7 @@ const data = [
           'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
       },
       links: {
-        repo: 'https://github.com/onlygarrett/favorite_streamers',
+        site: 'https://github.com/onlygarrett/favorite_streamers',
       },
       technologies: [
         '#python',
@@ -47,7 +47,7 @@ const data = [
           'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
       },
       links: {
-        repo: 'https://github.com/onlygarrett/aws-sam-discord-bot',
+        site: 'https://github.com/onlygarrett/aws-sam-discord-bot',
       },
       technologies: [
         '#AWS',
@@ -65,7 +65,7 @@ const data = [
           'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
       },
       links: {
-        repo: 'https://github.com/onlygarrett/whatsmysteam',
+        site: 'https://github.com/onlygarrett/whatsmysteam',
       },
       technologies: [
         '#Linux',
@@ -85,7 +85,7 @@ const data = [
           'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
       },
       links: {
-        repo: 'https://github.com/onlygarrett/dealscraper',
+        site: 'https://github.com/onlygarrett/dealscraper',
       },
       technologies: [
         '#Python',
