@@ -12,7 +12,7 @@ import 'react-pdf/dist/Page/TextLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const resumeLink =
-  'https://githubraw.com/onlygarrett/onlygarrett/main/Resume-Garrett-Rumschik.pdf';
+  'https://githubraw.com/onlygarrett/onlygarrett/main/GarrettRumschikResume.pdf';
 const headers = { 'Access-Control-Allow-Origin': "*" }
 
 const Resume = () => {
