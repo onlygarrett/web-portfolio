@@ -13,7 +13,6 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 const resumeLink =
   'https://githubraw.com/onlygarrett/onlygarrett/main/GarrettRumschikResume.pdf';
-const headers = { 'Access-Control-Allow-Origin': "*" }
 
 const Resume = () => {
   const pdfWrapper = useRef(null);
@@ -66,10 +65,6 @@ const Resume = () => {
             file={{
               url: resumeLink,
             }}
-            options={{
-              httpHeaders: headers
-                
-              }}
             
           >
             <Page
