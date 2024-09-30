@@ -12,7 +12,7 @@ const Projects = () => {
         </h1>
         <p className={s.subtitle}>
           Here are a personal development projects that I have been
-          working on.
+          worked on in the past. Some are completed projects while some are ideas that I have conceptualized to learn new skills.
         </p>
 
         <ul className={s.projects}>

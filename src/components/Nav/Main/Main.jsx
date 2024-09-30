@@ -20,7 +20,6 @@ const Main = () => {
 
       <nav className={s.desktop}>
         <Links />
-        <ButtonComp />
       </nav>
 
       <Media query={{ maxWidth: 768 }}>
@@ -30,7 +29,6 @@ const Main = () => {
 
             <Icon className={s.mobile} />
 
-            <ButtonComp className={s.mobile} />
           </>
         )}
       </Media>
