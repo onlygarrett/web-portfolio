@@ -4,6 +4,7 @@ import Media from 'react-media';
 import Links from '../Links/Links';
 import Drawer from '../Drawer/Drawer';
 import Burger from '../Burger/Burger';
+// eslint-disable-next-line no-unused-vars
 import ButtonComp from '../../ButtonComp/ButtonComp';
 import Icon from '../../Icon/Icon';
 
