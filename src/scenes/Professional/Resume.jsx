@@ -7,6 +7,7 @@ import Progress from '../../components/Elements/Progress/Progress';
 import Button from '../../components/Elements/Button/Button';
 //react-pdf
 import { Document, Page, pdfjs } from 'react-pdf';
+import GarrettRumschikResume from "../../assets/GarrettRumschikResume.pdf";
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import 'react-pdf/dist/Page/TextLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -63,7 +64,7 @@ const Resume = () => {
           <Document
             loading={<Progress />}
             file={{
-              url: resumeLink,
+              url: GarrettRumschikResume,
             }}
             
           >
